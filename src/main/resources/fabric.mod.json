@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "anti-blyat",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "AntiBlyat",
+  "description": "Removes the blyat from chat",
   "authors": [
-    "seasnail"
+    "ItzMarni"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/ItzMarni/anti-blyat"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "me.marni.addon.AntiBlyatAddon"
     ]
   },
   "mixins": [
